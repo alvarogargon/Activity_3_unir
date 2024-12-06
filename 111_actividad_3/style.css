@@ -1,0 +1,224 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #6495ed;
+  --tertiary-color: #cecece;
+  --quarter-color: #000000;
+  --fifth-color: #ff0000;
+}
+body {
+  font-family: "Parkinsans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.header {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+}
+.row-1 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.principal-nav__list {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+.button1 {
+  border: 1px solid var(--tertiary-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+.button1:hover,
+.button2:hover {
+  background-color: var(--secondary-color);
+  color: var(--quarter-color);
+  cursor: pointer;
+}
+.row_ini_border {
+  border-bottom: 2px solid var(--tertiary-color);
+  width: 100%;
+  /* NO SOY CAPAZ DE HACER QUE OCUPE TODA LA PANTALLA
+    (TAMBIEN PROBE CON <HR>)...LO SIENTO */
+}
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  gap: 30px;
+}
+.offer {
+  display: inline-block;
+  color: var(--primary-color);
+  background-color: var(--fifth-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.img-1 {
+  position: relative;
+  width: 35%;
+}
+.gb {
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border: 1px solid #0000;
+  border-radius: 10px;
+}
+.text-img1 {
+  width: 65%;
+}
+.price-button2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button2 {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+.text-img1_beneficts {
+  padding-top: 50px;
+  display: flex;
+}
+.benefit {
+  display: flex;
+  gap: 10px;
+}
+.accesories {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row-3 {
+  display: flex;
+  gap: 12px;
+}
+.box__tittle {
+  margin: 10px 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 10px;
+}
+.img-section {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.label-section1 {
+  color: var(--primary-color);
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--fifth-color);
+  padding: 5px;
+  border-radius: 10px;
+}
+.label-section2 {
+  color: var(--primary-color);
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 10px;
+}
+.raffle {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin-top: 20px;
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+.raffle_content {
+  padding-left: 50px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: start;
+}
+.raffle_content_tittle {
+  color: var(--quarter-color);
+}
+.form-control {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px;
+  flex-direction: column;
+  width: 30%;
+}
+.form-control_name,
+.form-control_email {
+  padding-top: 10px;
+  color: var(--quarter-color);
+}
+.form-control_label1,
+.form-control_label2 {
+  padding: 5px;
+  border: solid 1px var(--tertiary-color);
+  border-radius: 10px;
+}
+.button3 {
+  color: var(--primary-color);
+  background-color: var(--quarter-color);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.button3:hover {
+  background-color: var(--primary-color);
+  color: var(--quarter-color);
+  cursor: pointer;
+}
+.row_end_border {
+  border-top: 2px solid var(--tertiary-color);
+  width: 100vw;
+}
+.row_end {
+  text-align: center;
+}
+.row_end_end {
+  padding-top: 12px;
+  text-align: center;
+}
+.icons {
+  max-width: 40px;
+}
